@@ -45,11 +45,12 @@ label {
 }
 
 input {
-  border: 0.3px solid #4f4f4f;
+  border: 0.3px solid #bbbaba;
   border-radius: 8px;
   outline: none;
   padding: 10px 10px 10px 60px;
   width: 100%;
+  /* outline-color: #1976d2; */
 }
 
 form {
@@ -141,4 +142,27 @@ form {
 
 .signUpForm {
   padding: 30px 10px 20px 10px;
+}
+
+.loginForm {
+  padding: 20px 10px;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.or p {
+  font-size: 14px;
+  padding: 0 15px;
+  color: #c4c4c4;
+}
+
+.line {
+  height: 1px;
+  width: 165px;
+  background-color: #c4c4c4;
 }
