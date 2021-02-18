@@ -53,7 +53,7 @@ input {
 }
 
 form {
-  padding: 40px 30px;
+  padding: 0 30px 20px 30px;
 }
 
 .input {
@@ -69,7 +69,6 @@ form {
 }
 
 .eye {
-  /* position: absolute; */
   left: auto;
   right: 20px;
 }
@@ -93,7 +92,7 @@ form {
   font-size: 14px;
   line-height: 19px;
   color: #756f6f;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-weight: 500;
 }
 
@@ -119,6 +118,10 @@ form {
   border-radius: 8px;
 }
 
+.socialInner:hover {
+  background-color: #bcd8fd;
+}
+
 .social span,
 .social img {
   padding-right: 10px;
@@ -137,11 +140,5 @@ form {
 }
 
 .signUpForm {
-  padding: 40px 10px;
-  overflow-y: auto;
-  height: 100%;
-}
-
-.loginImage {
-  height: 100vh;
+  padding: 30px 10px 20px 10px;
 }
