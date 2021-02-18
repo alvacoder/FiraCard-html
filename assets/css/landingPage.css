@@ -1,0 +1,160 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 90vh;
+  padding: 50px;
+  background-color: #f7faff;
+}
+
+.homeText {
+  padding: 100px 100px 100px 50px;
+}
+
+.homeText h1 {
+  padding: 0 100px 0 0;
+  color: #2f80ed;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.homeText p {
+  padding: 20px 50px 30px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2c4b75;
+}
+
+.homeText button {
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
+  background-color: #fff;
+}
+
+.homeText button a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.homeText .homeBtn1 {
+  background-color: #f2994a;
+}
+
+.homeText .homeBtn1 a {
+  color: #fff;
+}
+
+.homeImage img {
+  position: absolute;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image3 img {
+  right: 0;
+}
+
+.image2 img {
+  left: 205px;
+  top: 90px;
+  z-index: 1;
+}
+
+.trusted {
+  text-align: center;
+  padding: 70px;
+}
+
+.trusted h3,
+.works h3,
+.greetingCard h3 {
+  padding-bottom: 35px;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #2c4b75;
+  text-align: center;
+}
+
+.trustedImage span {
+  padding-right: 20px;
+}
+
+.works {
+  align-items: center;
+  padding: 10px 100px 100px 100px;
+}
+
+.works h3 {
+  color: #2f80ed;
+}
+
+.worksInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.worksInnerText {
+  width: 250px;
+}
+
+.worksInnerText h4 {
+  color: #2f80ed;
+  padding: 10px 0;
+}
+
+.worksInnerText span {
+  color: #fff;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.worksInnerText p {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+
+.greetingCard h3 {
+  padding-bottom: 5px;
+}
+
+.greetingCard p {
+  font-size: 12px;
+  color: #2c4b75;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 5%; */
+  margin: auto;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.cardInner {
+  padding: 10px 5px;
+  position: relative;
+}
+
+.cardText {
+  position: absolute;
+  background-color: #fff;
+  top: 130px;
+  left: 130px;
+  padding: 10px 60px;
+  box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
+  border-radius: 8px;
+}
+
+/* .cardInner img {
+  width: 70%;
+} */
