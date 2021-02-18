@@ -1,0 +1,147 @@
+.signContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.loginImage img {
+  width: 95%;
+  height: 88vh;
+}
+
+.signUp {
+  margin: auto;
+  box-shadow: 0px 35px 60px rgba(85, 42, 4, 0.08);
+  height: auto;
+  width: 70%;
+}
+
+.signTitle {
+  text-align: center;
+}
+
+.signTitle h3 {
+  font-size: 20px;
+  line-height: 39px;
+  font-weight: 600;
+  color: #0e3262;
+}
+
+.signTitle p {
+  line-height: 180%;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+label {
+  color: #755f5f;
+  line-height: 180%;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: rgba(79, 79, 79, 0.7);
+  line-height: 180%;
+  font-size: 14px;
+}
+
+input {
+  border: 0.3px solid #4f4f4f;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px 10px 10px 60px;
+  width: 100%;
+}
+
+form {
+  padding: 40px 30px;
+}
+
+.input {
+  position: relative;
+}
+
+.userIcon {
+  position: absolute;
+  top: 10px;
+  font-size: 14px;
+  left: 25px;
+  color: rgba(47, 128, 237, 0.5);
+}
+
+.eye {
+  /* position: absolute; */
+  left: auto;
+  right: 20px;
+}
+
+.formInner {
+  padding-top: 20px;
+}
+
+.submitBtn input {
+  background: #2f80ed;
+  padding: 10px;
+  color: #fff;
+}
+
+.loginRedirectTitle {
+  text-align: center;
+  padding: 20px 5px;
+}
+
+.loginRedirectTitle p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #756f6f;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.loginRedirectTitle a {
+  color: #2f80ed;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.socialInner {
+  border: 1px solid #1976d2;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.social span,
+.social img {
+  padding-right: 10px;
+}
+.social p {
+  color: #2f80ed;
+}
+
+.socialInner a {
+  text-decoration: none;
+}
+
+.fab {
+  font-size: 20px;
+  color: #2c4b75;
+}
+
+.signUpForm {
+  padding: 40px 10px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.loginImage {
+  height: 100vh;
+}

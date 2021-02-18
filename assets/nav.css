@@ -1,0 +1,36 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 60px;
+  align-items: center;
+}
+
+.navContainer a {
+  text-decoration: none;
+  line-height: 19px;
+}
+
+.logo a {
+  color: #2f80ed;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  padding: 0 10px;
+  color: #2c4b75;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn a {
+  color: #fff;
+}
