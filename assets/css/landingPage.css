@@ -1,9 +1,26 @@
+.works,
+.reasonCard,
+.cards,
+.playCard,
+.neverForgets,
+.pricingContainer,
+.specialContainerInner,
+.subscribeContainer,
+.typesOfCards {
+  max-width: 1100px;
+  margin: auto;
+}
+
 .homeContainer {
+  background-color: #f7faff;
+}
+
+.homeContainerInner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 90vh;
   padding: 50px;
-  background-color: #f7faff;
+  margin: auto;
 }
 
 .homeText {
@@ -25,28 +42,6 @@
   color: #2c4b75;
 }
 
-.homeText button {
-  padding: 10px 15px;
-  margin-right: 20px;
-  border-radius: 4px;
-  border: none;
-  box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
-  background-color: #fff;
-}
-
-.homeText button a {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.homeText .homeBtn1 {
-  background-color: #f2994a;
-}
-
-.homeText .homeBtn1 a {
-  color: #fff;
-}
-
 .homeImage img {
   position: absolute;
 }
@@ -56,7 +51,7 @@
 }
 
 .image3 img {
-  right: 0;
+  left: 405px;
 }
 
 .image2 img {
@@ -70,24 +65,13 @@
   padding: 70px;
 }
 
-.trusted h3,
-.works h3,
-.greetingCard h3 {
-  padding-bottom: 35px;
-  line-height: 40px;
-  font-weight: 500;
-  font-size: 30px;
-  color: #2c4b75;
-  text-align: center;
-}
-
 .trustedImage span {
   padding-right: 20px;
 }
 
 .works {
   align-items: center;
-  padding: 10px 100px 100px 100px;
+  padding: 10px 10px 100px 10px;
 }
 
 .works h3 {
@@ -121,40 +105,345 @@
   font-size: 14px;
 }
 
-.greetingCard h3 {
+.greetingCard {
+  background-color: #f7faff;
+  padding: 30px 10px;
+}
+
+.greetingCard h3,
+.reason h3,
+.pricing h3 {
   padding-bottom: 5px;
 }
 
 .greetingCard p {
   font-size: 12px;
-  color: #2c4b75;
-  text-align: center;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* column-gap: 5%; */
-  margin: auto;
   text-align: center;
   padding: 20px 50px;
 }
 
 .cardInner {
-  padding: 10px 5px;
+  padding: 15px;
   position: relative;
 }
 
 .cardText {
   position: absolute;
   background-color: #fff;
-  top: 130px;
-  left: 130px;
-  padding: 10px 60px;
+  top: 100px;
+  left: 100px;
+  padding: 15px;
   box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
   border-radius: 8px;
+  width: 50%;
 }
 
-/* .cardInner img {
+.cardInner img {
+  width: 100%;
+}
+.greetingBtn {
+  text-align: center;
+}
+
+.reason {
+  padding: 50px 20px;
+}
+
+.reasonCard,
+.pricingContainer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.reasonInner,
+.pricingCard {
+  width: 300px;
+  height: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 35px 120px rgba(85, 42, 4, 0.08);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.reasonInner img {
+  width: 100%;
+}
+
+.reasonText {
+  padding: 10px 20px 5px 0;
+}
+
+.reasonText h5 {
+  padding: 10px 50px 10px 0;
+  color: #2c4b75;
+}
+
+.reasonText p {
+  font-size: 12px;
+}
+
+.reason1 {
+  margin-top: 200px;
+}
+
+.reason2 {
+  margin-top: 100px;
+}
+
+.playCardContainer {
+  background-color: #f7faff;
+}
+
+.playCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playCardInner {
+  padding: 50px 30px;
+}
+
+.playCardInner h3 {
+  font-weight: 500;
+  color: #2c4b75;
+  line-height: 52px;
+  font-size: 30px;
+}
+
+.playCardInner p {
+  font-size: 14px;
+  color: #4f4f4f;
+  line-height: 22px;
+  padding: 10px 0 20px 0;
+}
+
+.fa-play-circle {
+  color: #2c4b75;
+}
+
+.video {
+  position: relative;
+}
+
+.playBtn a button {
+  border: 1px solid #333333;
+}
+
+.video .play {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+
+.play .fas {
+  color: #fff;
+  font-size: 50px;
+}
+
+.neverForgets {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+  align-items: center;
+}
+
+.neverForgets img {
+  width: 100%;
+}
+
+.neverForgetsText h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #2c4b75;
+  padding: 0 250px 20px 0;
+}
+
+.neverForgetsText p {
+  font-size: 14px;
+  padding: 5px 250px 30px 0;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.neverForgetsText a {
+  text-decoration: underline;
+  color: #f2994a;
+}
+
+.pricingCard {
+  border: 1px solid #e9e6e6;
+  padding: 0;
+  color: #2c4b75;
+}
+
+.pricingCard h3 {
+  text-align: center;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.pricingCard p {
+  padding: 15px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.pricingLine {
+  height: 1px;
+  width: 100%;
+  background-color: #e9e6e6;
+}
+
+.pricingBtn {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.pricing .title p {
+  padding: 5px 330px;
+}
+
+.specialContainer {
+  background-color: #f6faff;
+  padding: 70px 250px;
+}
+
+.specialContainerInner p {
+  line-height: 25px;
+}
+
+.specialContainerInner .btn {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.subscribeContainer {
+  background-color: #2f80ed;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 50px auto;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+}
+
+.subscribeText {
+  padding: 0 100px 0 30px;
+  color: #fff;
+}
+
+.subscribeText h3 {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.subscribeText p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  padding: 20px 0;
+}
+
+.subscribeText form input:nth-child(1) {
   width: 70%;
-} */
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.subscribeText form input::placeholder {
+  color: #fff;
+}
+
+.subscribeText .btn {
+  margin-left: 10px;
+}
+
+.typeOfCardContainer {
+  background-color: #f6faff;
+  padding: 50px 10px;
+}
+
+.typesOfCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typesOfCards a {
+  font-size: 12px;
+  color: #2c4b75;
+}
+
+.typesOfCardsInner {
+  padding: 20px 7px;
+}
+
+.typesOfCardsInner h3 {
+  padding: 20px 0;
+  font-size: 16px;
+  color: #0e3262;
+}
+
+.typeOfCardLine {
+  height: 1px;
+  width: 60%;
+  background-color: #0a142f;
+  opacity: 0.06;
+  margin: auto;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 50px 10px;
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.testimonial h3 {
+  padding: 20px 0;
+  color: #2c4b75;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.testimonial p {
+  font-size: 12px;
+  line-height: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.testimonialIdentity {
+  padding: 30px 10px;
+}
+
+.testimonialIdentity p {
+  font-size: 16px;
+  color: #444;
+}
+
+.testimonialIdentity small {
+  color: #c4c4c4;
+  font-size: 12px;
+}
+
+.testimonial .glider-prev,
+.testimonial .glider-right {
+  left: 30px;
+}

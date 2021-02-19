@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/3668a55c92.js" crossorigin="anonymous"></script>
-    <!-- Custom Style -->
+        <!-- Custom Style -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/landingPage.css">
+    <!-- Glider style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <!-- Title -->
     <title>FiraCard - Home</title>
 </head>
@@ -31,36 +33,41 @@
                 <a href="#">Demo</a>
             </div>
         </div>
-        <div class="create">
-            <button class="btn"><a href="#">Create a Firaboard</a></button>
+        <div class="btn blue">
+            <a href="#"><button>Create a Firaboard</button></a>
         </div>
     </div>
     <!-- End Nav -->
 
     <!-- Start Main -->
     <div class="homeContainer">
-        <div class="homeText">
-            <h1>A special gesture for a special someone</h1>
-            <p>Celebrate a special someone with an online greeting card today, include videos, images and touching messages.</p>
+        <div class="homeContainerInner">
+            <div class="homeText">
+                <h1>A special gesture for a special someone</h1>
+                <p>Celebrate a special someone with an online greeting card today, include videos, images and touching messages.
+                </p>
         
-            <button class="homeBtn1"><a href="#">Create a Firaboard</a></button>
-            <button class="homeBtn2"><a href="#">How to?</a></button>
-        </div>
-        <div class="imageContainer">
-            <div class="image1 homeImage">
-                <img src="./assets/img/home1.png" alt="home1">
+                <span class="gold btn"><a href="#"><button>Create a Firaboard</button></a></span>
+                <span class="btn white"><a href="#"><button>How to?</button></a></span>
             </div>
-            <div class="image2 homeImage">
-                <img src="./assets/img/home2.png" alt="home2">
-            </div>
-            <div class="image3 homeImage">
-                <img src="./assets/img/home3.png" alt="home3">
+            <div class="imageContainer">
+                <div class="image1 homeImage">
+                    <img src="./assets/img/home1.png" alt="home1">
+                </div>
+                <div class="image2 homeImage">
+                    <img src="./assets/img/home2.png" alt="home2">
+                </div>
+                <div class="image3 homeImage">
+                    <img src="./assets/img/home3.png" alt="home3">
+                </div>
             </div>
         </div>
     </div>
     
     <div class="trusted">
-        <h3>Trusted by the best of the best</h3>
+        <div class="title">
+            <h3>Trusted by the best of the best</h3>
+        </div>
         <div class="trustedImage">
             <span>
                 <img src="./assets/img/robinhood.png" alt="robinhood">
@@ -90,7 +97,9 @@
     </div>
 
     <div class="works">
-        <h3>How FiraCard works</h3>
+        <div class="title">
+            <h3>How FiraCard works</h3>
+        </div>
         <div class="worksInner">
             <div class="worksInnerText">
                 <h4><span>1</span> Create a board</h4>
@@ -108,8 +117,10 @@
     </div>
 
     <div class="greetingCard">
-        <h3>Greeting cards for every occassion</h3>
-        <p>Let your loved ones know you have them in mind with these beautiful templates</p>
+        <div class="title">
+            <h3>Greeting cards for every occassion</h3>
+            <p>Let your loved ones know you have them in mind with these beautiful templates</p>
+        </div>
 
         <div class="cards">
             <div class="cardInner">
@@ -185,6 +196,324 @@
                 </a>
             </div>
         </div>
+        
+        <div class="btn gold greetingBtn">
+            <a href="#"><button>Get started now</button></a>
+        </div>
+    </div>
+
+    <div class="reason">
+        <div class="title">
+            <h3>Why you should use FiraCard?</h3>
+            <p>Not sure you know why you should FiraCard?</p>
+        </div>
+
+        <div class="reasonCard">
+            <div class="reasonInner reason1">
+                <img src="./assets/img/reason1.png" alt="reason1">
+                <div class="reasonText">
+                    <h5>Never miss the oppurtunity to
+                    celebrate a special one.</h5>
+                    <p>Consectetur mauris, in cursus diam interdum arcu aliquet. Eget at vehicula rutrum a tincidunt facilisis sit. Egestas at
+                    quis natoque sit tempus cursus id. Est enim, phasellus pharetra varius libero sollicitudin scelerisque nec. Varius
+                    lacus.</p>
+                </div>
+            </div>
+            <div class="reasonInner reason2">
+                <img src="./assets/img/reason2.png" alt="reason2">
+                <div class="reasonText">
+                    <h5>Never miss the oppurtunity to
+                        celebrate a special one.</h5>
+                    <p>Consectetur mauris, in cursus diam interdum arcu aliquet. Eget at vehicula rutrum a tincidunt facilisis sit.
+                        Egestas at
+                        quis natoque sit tempus cursus id. Est enim, phasellus pharetra varius libero sollicitudin scelerisque nec.
+                        Varius
+                        lacus.</p>
+                </div>
+            </div>
+            <div class="reasonInner">
+                <img src="./assets/img/reason3.png" alt="reason3">
+                <div class="reasonText">
+                    <h5>Never miss the oppurtunity to
+                        celebrate a special one.</h5>
+                    <p>Consectetur mauris, in cursus diam interdum arcu aliquet. Eget at vehicula rutrum a tincidunt facilisis sit.
+                        Egestas at
+                        quis natoque sit tempus cursus id. Est enim, phasellus pharetra varius libero sollicitudin scelerisque nec.
+                        Varius
+                        lacus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="playCardContainer">
+        <div class="playCard">
+            <div class="playCardInner video">
+                <div class="play">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+                <video src="" poster="./assets/img/reason1.png"></video>
+            </div>
+            <div class="playCardInner">
+                <h3>Play card as a slide show</h3>
+                <p>Vel pretium dictum semper elementum hac vestibulum. Sit at vestibulum elit cursus adipiscing viverra elit
+                    pretium dictum
+                    semper elementum hac vestibulum.</p>
+                <div class="playBtn btn">
+                    <a href="#"><button><i class="fas fa-play-circle"></i> Play sample slideshow</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="neverForgets">
+        <div class="neverForgetsText">
+            <h3>Never have to forget loved
+            ones by creating memorials..</h3>
+            <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+            vestibulum tabii nedara ges estila cumme.</p>
+            <div>
+                <a href="#">Create an online memorial</a>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/img/never.png" alt="never forgets">
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <h3>Testimonials</h3>
+        <div class="glider">
+            <div>
+                <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+                vestibulum tabii nedara ges estila cumme. Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme
+                Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme. . Pretium dictum semper elementum hac</p>
+
+                <div class="testimonialIdentity">
+                    <img src="./assets/img/testimonialImage.png" alt="testimonial identity">
+                    <p>Idris Chukwuma</p>
+                    <small>Califonia, USA.</small>
+                </div>
+            </div>
+            <div>
+                <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+                    vestibulum tabii nedara ges estila cumme. Pretium dictum semper elementum hac vestibulum tabii nedara ges estila
+                    cumme
+                    Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme. . Pretium dictum semper elementum
+                    hac</p>
+            
+                <div class="testimonialIdentity">
+                    <img src="./assets/img/testimonialImage.png" alt="testimonial identity">
+                    <p>Idris Chukwuma</p>
+                    <small>Califonia, USA.</small>
+                </div>
+            </div>
+            <div>
+                <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+                    vestibulum tabii nedara ges estila cumme. Pretium dictum semper elementum hac vestibulum tabii nedara ges estila
+                    cumme
+                    Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme. . Pretium dictum semper elementum
+                    hac</p>
+            
+                <div class="testimonialIdentity">
+                    <img src="./assets/img/testimonialImage.png" alt="testimonial identity">
+                    <p>Idris Chukwuma</p>
+                    <small>Califonia, USA.</small>
+                </div>
+            </div>
+            <div>
+                <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+                    vestibulum tabii nedara ges estila cumme. Pretium dictum semper elementum hac vestibulum tabii nedara ges estila
+                    cumme
+                    Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme. . Pretium dictum semper elementum
+                    hac</p>
+            
+                <div class="testimonialIdentity">
+                    <img src="./assets/img/testimonialImage.png" alt="testimonial identity">
+                    <p>Idris Chukwuma</p>
+                    <small>Califonia, USA.</small>
+                </div>
+            </div>
+        </div>
+    
+        <button aria-label="Previous" class="glider-prev"><i class="fas fa-chevron-left"></i></button>
+        <button aria-label="Next" class="glider-next"><i class="fas fa-chevron-right"></i></button>
+        <div role="tablist" class="dots"></div>
+    </div>
+
+    <div class="pricing">
+        <div class="title">
+            <h3>Pricing Plan</h3>
+            <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+            vestibulum tabii nedara ges estila cumme.</p>
+        </div>
+        <div class="pricingContainer">
+        <div class="pricingCard">
+            <h3>Free Plan</h3>
+            <div class="pricingLine"></div>
+            <p>Eget aliquet hendrerit purus metus velit sollicitudin. Consectetur arcu sed elementum quis fermentum fames a. Tincidunt
+            non amet duis pellentesque vestibulum vitae. At tincidunt imperdiet pretium arcu amet. Est in dolor blandit egestas
+            velit neque. Eget tellus quam lectus sem gravida scelerisque. Sociis nibh ac eget fermentum maecenas risus. Ipsum est
+            plat.
+            <br>
+            Eget tellus quam lectus sem gravida scelerisque.</p>
+
+            <div class="btn gold pricingBtn">
+                <a href="#"><button>Create a Firaboard</button></a>
+            </div>
+        </div>
+        <div class="pricingCard">
+            <h3>Commodity Plan</h3>
+            <div class="pricingLine"></div>
+            <p>Eget aliquet hendrerit purus metus velit sollicitudin. Consectetur arcu sed elementum quis fermentum fames a.
+                Tincidunt
+                non amet duis pellentesque vestibulum vitae. At tincidunt imperdiet pretium arcu amet. Est in dolor blandit egestas
+                velit neque. Eget tellus quam lectus sem gravida scelerisque. Sociis nibh ac eget fermentum maecenas risus. Ipsum
+                est
+                plat.
+            <br>
+                Eget tellus quam lectus sem gravida scelerisque.</p>
+            
+            <div class="btn gold pricingBtn">
+                <a href="#"><button>Create a Firaboard</button></a>
+            </div>
+        </div>
+        <div class="pricingCard">
+            <h3>Enterprise Plan</h3>
+            <div class="pricingLine"></div>
+            <p>Eget aliquet hendrerit purus metus velit sollicitudin. Consectetur arcu sed elementum quis fermentum fames a.
+                Tincidunt
+                non amet duis pellentesque vestibulum vitae. At tincidunt imperdiet pretium arcu amet. Est in dolor blandit egestas
+                velit neque. Eget tellus quam lectus sem gravida scelerisque. Sociis nibh ac eget fermentum maecenas risus. Ipsum
+                est
+                plat.
+            <br>
+                Eget tellus quam lectus sem gravida scelerisque.</p>
+            
+            <div class="btn gold pricingBtn">
+                <a href="#"><button>Create a Firaboard</button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="specialContainer">
+        <div class="specialContainerInner title">
+            <h3>Cards for special events?</h3>
+
+            <p>Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac
+            vestibulum tabii nedara ges estila cumme. Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme
+            Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme.Pretium dictum semper elementum hac
+            vestibulum tabii nedara ges estila cumme Pretium dictum semper elementum hac vestibulum tabii nedara ges estila cumme.</p>
+
+            <div class="btn gold">
+                <a href="#"><button>Create a Firaboard</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribeContainer">
+        <div class="subscribe">
+            <div>
+                <img src="./assets/img/reason1.png" alt="subscribe">
+            </div>
+            <div class="subscribeText">
+                <h3>Subscribe to our newsletter</h3>
+                <p>Ut ut dictum egestas ut. Suspendisse at egestas nullam volutpat et vestibulum integer feugiat. Vel vel sed
+                    nisi, ut
+                    augue. Odio penatibus volutpfeugiat felis.</p>
+                <form action="">
+                    <input type="text" placeholder="Email Address">
+                    <span class="btn gold"><a href="#"><button>Create a Firaboard</button></a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="typeOfCardContainer">
+        <div class="typesOfCards">
+            <div class="typesOfCardsInner">
+                <h3>Birthday Cards</h3>
+                <div><a href="#">Birthday Cards</a></div>
+                <div><a href="#">Birthday Cards for Boss</a></div>
+                <div><a href="#">Birthday Cards for Colleagues</a></div>
+                <div><a href="#">Birthday Cards for Friends</a></div>
+                <div><a href="#">Birthday Cards for Lovers</a></div>
+                <div><a href="#">Birthday Cards for Brothers</a></div>
+                <div><a href="#">Birthday Cards for Sisters</a></div>
+                <div><a href="#">Birthday Cards for Dads</a></div>
+                <div><a href="#">Birthday Cards for Mums</a></div>
+                <div><a href="#">Birthday Cards for Cousins</a></div>
+                <div><a href="#">Birthday Cards for Spouses</a></div>
+                <div><a href="#">Birthday Cards for Him</a></div>
+                <div><a href="#">Birthday Cards for Her</a></div>
+            </div>
+            <div  class="typesOfCardsInner">
+                <h3>Birthday Cards</h3>
+                <div><a href="#">Birthday Cards</a></div>
+                <div><a href="#">Birthday Cards for Boss</a></div>
+                <div><a href="#">Birthday Cards for Colleagues</a></div>
+                <div><a href="#">Birthday Cards for Friends</a></div>
+                <div><a href="#">Birthday Cards for Lovers</a></div>
+                <div><a href="#">Birthday Cards for Brothers</a></div>
+                <div><a href="#">Birthday Cards for Sisters</a></div>
+                <div><a href="#">Birthday Cards for Dads</a></div>
+                <div><a href="#">Birthday Cards for Mums</a></div>
+                <div><a href="#">Birthday Cards for Cousins</a></div>
+                <div><a href="#">Birthday Cards for Spouses</a></div>
+                <div><a href="#">Birthday Cards for Him</a></div>
+                <div><a href="#">Birthday Cards for Her</a></div>
+            </div>
+            <div  class="typesOfCardsInner">
+                <h3>Special Occassion Cards</h3>
+                <div><a href="#">Anniversary Cards</a></div>
+                <div><a href="#">Get Well Soon Cards</a></div>
+                <div><a href="#">Greeting Cards</a></div>
+                <div><a href="#">I LOVE YOU Cards</a></div>
+                <div><a href="#">Launching Cards</a></div>
+                <div><a href="#">Congratulations Cards</a></div>
+                <div><a href="#">Endagement Cards</a></div>
+                <div><a href="#">Goodluck Cards</a></div>
+                <div><a href="#">Graduation Cards</a></div>
+                <div><a href="#">Farewell Cards</a></div>
+                <div><a href="#">Christmas Cards</a></div>
+                <div><a href="#">Birthday Cards for Him</a></div>
+                <div><a href="#">Birthday Cards for Her</a></div>
+            </div>
+            <div  class="typesOfCardsInner">
+                <h3>Collage</h3>
+                <div><a href="#">Graduation Collage</a></div>
+                <div><a href="#">Anniversary Collage</a></div>
+                <div><a href="#">Baby Collage</a></div>
+                <div><a href="#">Farewell Collage</a></div>
+                <div><a href="#">Father’s Day Collage</a></div>
+                <div><a href="#">Mother’s Day Collage</a></div>
+                <div><a href="#">Graduation Collage</a></div>
+                <div><a href="#">Love Collage</a></div>
+                <div><a href="#">Thank you Collages</a></div>
+                <div><a href="#">Goodluck Collage</a></div>
+                <div><a href="#">Christmas Cards</a></div>
+                <div><a href="#">Birthday Cards for Him</a></div>
+                <div><a href="#">Birthday Cards for Her</a></div>
+            </div>
+            <div  class="typesOfCardsInner">
+                <h3>Slideshow</h3>
+                <div><a href="#">Graduation Slideshow</a></div>
+                <div><a href="#">Anniversary Slideshow</a></div>
+                <div><a href="#">Baby Slideshow</a></div>
+                <div><a href="#">Farewell Slideshow</a></div>
+                <div><a href="#">Father’s Day Slideshow</a></div>
+                <div><a href="#">Mother’s Day Slideshow</a></div>
+                <div><a href="#">Graduation Slideshow</a></div>
+                <div><a href="#">Love Slideshow</a></div>
+                <div><a href="#">Thank you Slideshow</a></div>
+                <div><a href="#">Goodluck Slideshow</a></div>
+                <div><a href="#">Christmas Slideshow</a></div>
+                <div><a href="#">Birthday Cards for Him</a></div>
+                <div><a href="#">Birthday Cards for Her</a></div>
+            </div>
+        </div>
+        <div class="typeOfCardLine"></div>
     </div>
     <!-- End Main -->
 
@@ -192,13 +521,13 @@
     <div class="footerContainer">
         <div class="socialFooter">
             <span>
-                <a href="#">in</a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </span>
             <span>
-                <a href="#">fb</a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
             </span>
             <span>
-                <a href="#">tw</a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </span>
         </div>
         <div class="copyRight">
@@ -206,5 +535,10 @@
         </div>
     </div>
     <!-- End Footer -->
+
+    <!-- Glider script -->
+    <script src="./assets/js/glider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    
 </body>
 </html>
