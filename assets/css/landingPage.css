@@ -6,7 +6,8 @@
 .pricingContainer,
 .specialContainerInner,
 .subscribeContainer,
-.typesOfCards {
+.typesOfCards,
+.homeContainerInner {
   max-width: 1100px;
   margin: auto;
 }
@@ -24,7 +25,7 @@
 }
 
 .homeText {
-  padding: 100px 100px 100px 50px;
+  padding: 100px 50px 100px 0px;
 }
 
 .homeText h1 {
