@@ -13,6 +13,11 @@
 
 .logo a {
   color: #2f80ed;
+  font-weight: 700;
+}
+
+.logo a span {
+  font-weight: normal;
 }
 
 .links {
