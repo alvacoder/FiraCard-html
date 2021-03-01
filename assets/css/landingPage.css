@@ -106,6 +106,10 @@
   font-size: 14px;
 }
 
+.worksInnerText img {
+  padding: 40px 0 20px 0;
+}
+
 .greetingCard {
   background-color: #f7faff;
   padding: 30px 10px;
@@ -142,6 +146,7 @@
   box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
   border-radius: 8px;
   width: 50%;
+  color: #2f80ed;
 }
 
 .cardInner img {
