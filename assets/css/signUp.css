@@ -11,12 +11,13 @@
 .signUp {
   margin: auto;
   box-shadow: 0px 35px 60px rgba(85, 42, 4, 0.08);
-  height: auto;
-  width: 70%;
+  width: 100%;
+  align-items: center;
 }
 
 .signTitle {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .signTitle h3 {
@@ -82,11 +83,12 @@ form {
   background: #2f80ed;
   padding: 10px;
   color: #fff;
+  border: 10px solid transparent;
 }
 
 .loginRedirectTitle {
   text-align: center;
-  padding: 20px 5px;
+  padding: 10px 5px;
 }
 
 .loginRedirectTitle p {
@@ -101,6 +103,7 @@ form {
   color: #2f80ed;
   font-size: 12px;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .social {
@@ -117,10 +120,6 @@ form {
   padding: 10px;
   margin: 5px;
   border-radius: 8px;
-}
-
-.socialInner:hover {
-  background-color: #bcd8fd;
 }
 
 .social span,
@@ -141,18 +140,18 @@ form {
 }
 
 .signUpForm {
-  padding: 30px 10px 20px 10px;
+  margin: auto 100px;
 }
 
 .loginForm {
-  padding: 20px 10px;
+  padding: 20px 10px 30px 10px;
 }
 
 .or {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
 .or p {
@@ -165,4 +164,98 @@ form {
   height: 1px;
   width: 165px;
   background-color: #c4c4c4;
+}
+
+/* sign styling */
+.signOnlyContainer {
+  margin: auto;
+}
+.signOnlyContainer .socialInner {
+  width: 220px;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.socialInner .email img {
+  width: 30px;
+}
+
+.signOnlyContainer .or .line {
+  width: 100px;
+}
+
+.hideForm,
+.hideSignOnly {
+  display: none;
+}
+
+.showForm {
+  display: block;
+}
+
+@media screen and (max-width: 980px) {
+  .signContainer {
+    display: block;
+  }
+  .loginImage img {
+    display: none;
+  }
+
+  .signUp {
+    align-items: center;
+  }
+
+  .signUpForm {
+    margin: auto;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+  }
+
+  .social p {
+    font-size: 12px;
+  }
+
+  .socialInner {
+    padding: 7px;
+  }
+
+  .line {
+    width: 120px;
+  }
+
+  .signTitle {
+    padding-bottom: 10px;
+  }
+
+  /* sign style */
+  .signOnlyContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .signOnlyContainer .socialInner {
+    width: 170px;
+  }
+
+  .signOnlyContainer .or .line {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .signUpForm {
+    width: 100%;
+  }
+
+  .signUp {
+    width: 100%;
+  }
+
+  .signTitle {
+    padding-bottom: 7px;
+  }
 }
