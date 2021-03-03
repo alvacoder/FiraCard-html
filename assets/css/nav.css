@@ -28,3 +28,23 @@
   padding: 0 10px;
   color: #2c4b75;
 }
+/* .toggle{
+  display: none;
+}
+
+.close{
+  display: none;
+} */
+
+@media screen and (max-width: 980px){
+  /* .toggle{
+    display: block;
+  }
+  .close{
+    display: none;
+  }
+
+  .hideBtn, .hideLinks{
+    display: none;
+  } */
+}
