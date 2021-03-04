@@ -22,6 +22,7 @@
   height: 90vh;
   padding: 50px;
   margin: auto;
+  width: 100%;
 }
 
 .homeText {
@@ -433,7 +434,27 @@
   line-height: 20px;
   max-width: 800px;
   margin: auto;
+  text-align: left;
 }
+
+.fa-quote-left{
+  text-align: left;
+}
+
+.fa-quote-right{
+  float: right;
+}
+
+.gliderInner{
+  width: fit-content;
+  padding: 20px;
+  margin: 30px 10px;
+  box-shadow: 0px 35px 120px rgba(85, 42, 4, 0.08);
+border-radius: 8px;
+display: flex;
+flex-direction: column-reverse;
+}
+
 
 .testimonialIdentity {
   padding: 30px 10px;
@@ -442,6 +463,9 @@
 .testimonialIdentity p {
   font-size: 16px;
   color: #444;
+  padding: 20px 0 0 0;
+  text-align: center;
+
 }
 
 .testimonialIdentity small {
@@ -452,4 +476,64 @@
 .testimonial .glider-prev,
 .testimonial .glider-right {
   left: 30px;
+}
+
+.explanation{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 50px;
+  max-width: 1100px;
+  margin: auto;
+  align-items: center;
+}
+
+.explainImage{
+  display: flex;
+  margin: 0 20px 0 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.explainTextInner{
+  padding: 0 0 25px 10px;
+  margin: auto;
+  align-items: center;
+}
+
+.explainTextInner h5{
+  line-height: 31px;
+  font-size: 20px;
+}
+
+.explainTextInner p {
+  color: #4F4F4F;
+  line-height: 29px;
+}
+
+@media screen and (max-width: 980px){
+  .homeContainerInner{
+    display: block;
+  }
+  .imageContainer{
+    display: none;
+  }
+  .homeText{
+    text-align: center;
+  }
+
+
+  .explanation{
+    display: block;
+    align-items: center;
+    position: relative;
+  }
+
+  .explainImage img{
+    width: 100%;
+    margin: auto;
+    
+  }
 }
