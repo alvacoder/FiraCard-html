@@ -81,3 +81,10 @@
     padding-top: 50px;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .curatedCardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+}
