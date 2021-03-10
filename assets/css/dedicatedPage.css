@@ -17,10 +17,6 @@
   padding: 0 50px 0 0px;
 }
 
-.homeText h1 {
-  color: #0e3262;
-}
-
 .homeText .dedicatedBtn a button {
   margin: 40px 0;
 }
@@ -35,15 +31,24 @@
 }
 
 .createGreetingCard {
-  display: flex;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
 }
 
 .createGreetingCard h3 {
-  color: #2c4b75;
+  color: #d04d2a;
   font-size: 30px;
   font-weight: 500;
   padding: 0 0 0 30px;
+}
+
+.playBtn a button {
+  color: #d04d2a;
+}
+
+.playBtn .fa-play-circle {
+  color: #d04d2a;
 }
 
 .sampleContainer {

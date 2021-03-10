@@ -14,9 +14,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: #fff;
-  width: 75%;
-  height: 300px;
-  margin: 20px auto;
+  width: 97%;
+  height: fit-content;
+  margin: 10px auto;
 }
 
 q::after {

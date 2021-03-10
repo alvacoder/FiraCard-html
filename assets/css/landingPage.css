@@ -12,6 +12,10 @@
   margin: auto;
 }
 
+.title h3 {
+  color: #d04d2a;
+}
+
 .homeContainer {
   background-color: #f7faff;
 }
@@ -19,8 +23,8 @@
 .homeContainerInner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 90vh;
-  padding: 50px;
+  height: fit-content;
+  padding: 50px 50px 100px 50px;
   margin: auto;
   width: 100%;
 }
@@ -31,7 +35,7 @@
 
 .homeText h1 {
   padding: 0 100px 0 0;
-  color: #2f80ed;
+  color: #d04d2a;
   font-size: 35px;
   line-height: 42px;
   font-weight: 500;
@@ -42,6 +46,15 @@
   font-size: 14px;
   line-height: 20px;
   color: #2c4b75;
+}
+
+.homeText .smallLink {
+  padding-top: 40px;
+}
+
+.homeText .smallLink a {
+  color: #a1c042;
+  text-decoration: underline;
 }
 
 .homeImage img {
@@ -67,17 +80,18 @@
   padding: 70px;
 }
 
+.trustedImage {
+  align-items: center;
+}
+
 .trustedImage span {
-  padding-right: 20px;
+  padding-right: 30px;
+  align-items: center;
 }
 
 .works {
   align-items: center;
   padding: 10px 10px 100px 10px;
-}
-
-.works h3 {
-  color: #2f80ed;
 }
 
 .worksInner {
@@ -90,13 +104,13 @@
 }
 
 .worksInnerText h4 {
-  color: #2f80ed;
+  color: #d04d2a;
   padding: 10px 0;
 }
 
 .worksInnerText span {
   color: #fff;
-  background-color: #2f80ed;
+  background-color: #d04d2a;
   border-radius: 50%;
   padding: 5px 10px;
   margin-right: 5px;
@@ -290,19 +304,27 @@
   border: 1px solid #e9e6e6;
   padding: 0;
   color: #2c4b75;
+  text-align: center;
+  height: 370px;
+  box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
 }
 
 .pricingCard h3 {
   text-align: center;
   padding: 15px;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .pricingCard p {
-  padding: 15px;
+  padding: 0 5px 10px 5px;
+  font-size: 12px;
+}
+
+.pricingTitle {
+  padding: 20px 5px 10px 5px;
   font-size: 14px;
-  line-height: 25px;
+  background-color: #dddbdb;
 }
 
 .pricingLine {
@@ -316,13 +338,32 @@
   margin-bottom: 15px;
 }
 
+.pricingCard small {
+  color: #bdbdbd;
+}
+
+.pricing .title {
+  padding-top: 40px;
+}
+
 .pricing .title p {
   padding: 5px 330px;
 }
 
+.pricingSpecification {
+  padding-top: 20px;
+  align-items: center;
+}
+
+.pricingSpecification .fa-circle {
+  font-size: 5px;
+  padding-right: 10px;
+}
+
+/* special container */
 .specialContainer {
   background-color: #f6faff;
-  padding: 70px 250px;
+  padding: 70px 250px 50px 250px;
 }
 
 .specialContainerInner p {
@@ -335,7 +376,7 @@
 }
 
 .subscribeContainer {
-  background-color: #2f80ed;
+  background-color: #f6faff;
   padding: 30px;
   border-radius: 8px;
   margin: 50px auto;
@@ -354,6 +395,7 @@
 .subscribeText h3 {
   font-size: 25px;
   line-height: 40px;
+  color: #d04d2a;
 }
 
 .subscribeText p {
@@ -361,23 +403,40 @@
   font-weight: 100;
   line-height: 20px;
   padding: 20px 0;
+  color: #333333;
 }
 
-.subscribeText form input:nth-child(1) {
+.subscribeText form input {
   width: 70%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(208, 77, 42, 0.1);
   border-radius: 4px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #d04d2a;
+  color: #d04d2a;
 }
 
 .subscribeText form input::placeholder {
-  color: #fff;
+  color: #d04d2a;
 }
 
 .subscribeText .btn {
   margin-left: 10px;
+}
+
+.subscribeText .btn button {
+  background-color: #d04d2a;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.subscribeText .btn button:hover {
+  color: #d04d2a;
+  background-color: #fff;
+  border: 1px solid #d04d2a;
+}
+
+.subscribeText form {
+  display: flex;
 }
 
 .typeOfCardContainer {
@@ -424,7 +483,6 @@
 
 .testimonial h3 {
   padding: 20px 0;
-  color: #2c4b75;
   font-size: 30px;
   font-weight: 500;
 }
@@ -437,24 +495,32 @@
   text-align: left;
 }
 
-.fa-quote-left{
-  text-align: left;
+.testimonial .title p {
+  text-align: center;
 }
 
-.fa-quote-right{
+.fa-quote-left {
+  text-align: left;
+  float: left;
+}
+
+.fa-quote-right {
   float: right;
 }
 
-.gliderInner{
+.gliderInner {
   width: fit-content;
   padding: 20px;
   margin: 30px 10px;
   box-shadow: 0px 35px 120px rgba(85, 42, 4, 0.08);
-border-radius: 8px;
-display: flex;
-flex-direction: column-reverse;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
+.gliderInner p {
+  margin-top: 20px;
+}
 
 .testimonialIdentity {
   padding: 30px 10px;
@@ -463,9 +529,8 @@ flex-direction: column-reverse;
 .testimonialIdentity p {
   font-size: 16px;
   color: #444;
-  padding: 20px 0 0 0;
+  /* padding: 20px 0 0 0; */
   text-align: center;
-
 }
 
 .testimonialIdentity small {
@@ -478,16 +543,36 @@ flex-direction: column-reverse;
   left: 30px;
 }
 
-.explanation{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  padding: 50px;
+.testimonialWriter {
+  text-align: left;
+  padding: 40px 0 10px 0;
+}
+
+.testimonialStar span {
+  color: #ffc107;
+}
+
+/* explanation styling */
+
+.explanationContainer {
   max-width: 1100px;
   margin: auto;
   align-items: center;
+  padding: 50px 0;
 }
 
-.explainImage{
+.explanation {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 40px;
+}
+
+.explanationBtn {
+  /* align-items: center; */
+  text-align: center;
+}
+
+.explainImage {
   display: flex;
   margin: 0 20px 0 0;
   align-items: center;
@@ -495,45 +580,42 @@ flex-direction: column-reverse;
   justify-content: center;
 }
 
-
-
-.explainTextInner{
+.explainTextInner {
   padding: 0 0 25px 10px;
   margin: auto;
   align-items: center;
 }
 
-.explainTextInner h5{
+.explainTextInner h5 {
   line-height: 31px;
   font-size: 20px;
+  color: #d04d2a;
 }
 
 .explainTextInner p {
-  color: #4F4F4F;
+  color: #4f4f4f;
   line-height: 29px;
 }
 
-@media screen and (max-width: 980px){
-  .homeContainerInner{
+@media screen and (max-width: 980px) {
+  .homeContainerInner {
     display: block;
   }
-  .imageContainer{
+  .imageContainer {
     display: none;
   }
-  .homeText{
+  .homeText {
     text-align: center;
   }
 
-
-  .explanation{
+  .explanation {
     display: block;
     align-items: center;
     position: relative;
   }
 
-  .explainImage img{
+  .explainImage img {
     width: 100%;
     margin: auto;
-    
   }
 }

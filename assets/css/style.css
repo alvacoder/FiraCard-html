@@ -79,3 +79,17 @@ input {
   color: #2f80ed;
   border: 1px solid #2f80ed;
 }
+
+/* green color button */
+
+.green a button {
+  background-color: #A1C042;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.green a button:hover {
+  background-color: #fff;
+  color: #A1C042;
+  border: 1px solid #A1C042;
+}
