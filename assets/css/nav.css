@@ -9,12 +9,13 @@
 }
 
 .navContainer a {
+  color: #2D0C03;
   text-decoration: none;
   line-height: 19px;
 }
 
 .logo a {
-  color: #2f80ed;
+  color: #2D0C03;
   font-weight: 700;
 }
 
@@ -28,7 +29,7 @@
 
 .links a {
   padding: 0 10px;
-  color: #2c4b75;
+  color: #2D0C03;
 }
 
 .navBtn {
