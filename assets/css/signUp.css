@@ -80,7 +80,7 @@ form {
 }
 
 .submitBtn input {
-  background: #a1c042;
+  background: #D04D2A;
   padding: 10px;
   color: #fff;
   border: 10px solid transparent;
@@ -100,7 +100,7 @@ form {
 }
 
 .loginRedirectTitle a {
-  color: #a1c042;
+  color: #D04D2A;
   font-size: 12px;
   font-weight: 600;
   text-decoration: underline;
@@ -127,7 +127,7 @@ form {
   padding-right: 10px;
 }
 .social p {
-  color: #a1c042;
+  color: #D04D2A;
 }
 
 .socialInner a {
@@ -194,7 +194,7 @@ form {
 }
 
 .forgotPwd a {
-  color: #a1c042;
+  color: #D04D2A;
   float: right;
   font-size: 14px;
 }
