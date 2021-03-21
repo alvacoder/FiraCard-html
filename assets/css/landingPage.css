@@ -121,6 +121,7 @@
 .worksInnerText p {
   color: #4f4f4f;
   font-size: 14px;
+  min-height: 200px;
 }
 
 .worksInnerText img {
@@ -308,7 +309,7 @@
   padding: 0;
   color: #2c4b75;
   text-align: center;
-  height: 370px;
+  height: 500px;
   box-shadow: 0px 2px 8px rgba(242, 153, 74, 0.16);
 }
 
