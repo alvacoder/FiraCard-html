@@ -180,7 +180,7 @@ form {
 }
 
 .signUpForm {
-  margin: auto 100px;
+  margin: auto 50px;
 }
 
 .loginForm {
@@ -297,5 +297,16 @@ form {
 @media screen and (max-width: 480px) {
   .socialContainer {
     display: block;
+    padding: 10px;
+  }
+
+  .signUp {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .socialInner {
+    max-width: 300px;
+    margin: 5px auto;
   }
 }
