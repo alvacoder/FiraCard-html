@@ -1,16 +1,14 @@
 .signContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.loginImage img {
-  width: 95%;
-  height: 88vh;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  max-width: 700px;
+  margin: auto;
+  padding-top: 30px;
 }
 
 .signUp {
   margin: auto;
-  box-shadow: 0px 35px 60px rgba(85, 42, 4, 0.08);
+  /* box-shadow: 0px 35px 60px rgba(85, 42, 4, 0.08); */
   width: 100%;
   align-items: center;
 }
@@ -80,7 +78,7 @@ form {
 }
 
 .submitBtn input {
-  background: #a1c042;
+  background: #d04d2a;
   padding: 10px;
   color: #fff;
   border: 10px solid transparent;
@@ -100,7 +98,7 @@ form {
 }
 
 .loginRedirectTitle a {
-  color: #a1c042;
+  color: #d04d2a;
   font-size: 12px;
   font-weight: 600;
   text-decoration: underline;
@@ -116,10 +114,52 @@ form {
 }
 
 .socialInner {
-  border: 1px solid #1976d2;
-  padding: 10px;
+  /* padding: 10px; */
   margin: 5px;
-  border-radius: 8px;
+  display: flex;
+  /* border-radius: 8px; */
+}
+
+.socialInnerRed {
+  border: 1px solid #ff0000;
+  background-color: #db4437;
+}
+
+.socialImgRed {
+  border-right: 1px solid #db4437;
+}
+
+.socialInnerBlue {
+  background-color: #2c4b75;
+  border: 1px solid #2c4b75;
+}
+
+.socialImgBlue {
+  border-right: 1px solid #2c4b75;
+}
+
+.socialInnerEmail {
+  border: 1px solid #333333;
+}
+
+.socialImgEmail {
+  border-right: 1px solid #333333;
+}
+
+.socialImg {
+  padding: 7px 10px;
+  background-color: #fff;
+}
+
+.socialLink {
+  padding: 7px 10px 7px 30px;
+}
+
+.socialLink a p {
+  color: #fff;
+}
+.socialLinkEmail a p {
+  color: #333333;
 }
 
 .social span,
@@ -169,15 +209,16 @@ form {
 /* sign styling */
 .signOnlyContainer {
   margin: auto;
+  padding: 15px;
 }
 .signOnlyContainer .socialInner {
-  width: 220px;
+  width: 250px;
   align-items: center;
   margin: 10px auto;
 }
 
 .socialInner .email img {
-  width: 30px;
+  width: 20px;
 }
 
 .signOnlyContainer .or .line {
@@ -214,18 +255,10 @@ form {
   .signUpForm {
     margin: auto;
     max-width: 500px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 55%;
-    left: 50%;
   }
 
   .social p {
     font-size: 12px;
-  }
-
-  .socialInner {
-    padding: 7px;
   }
 
   .line {
@@ -237,14 +270,9 @@ form {
   }
 
   /* sign style */
-  .signOnlyContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   .signOnlyContainer .socialInner {
-    width: 170px;
+    width: 250px;
   }
 
   .signOnlyContainer .or .line {
@@ -263,5 +291,11 @@ form {
 
   .signTitle {
     padding-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .socialContainer {
+    display: block;
   }
 }

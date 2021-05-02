@@ -125,3 +125,46 @@ q::after {
   font-size: 12px;
   color: #c4c4c4;
 }
+
+.createImageMobile {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .createdGreetingCardContainer {
+    padding: 50px 0;
+  }
+  .createGreetingCard {
+    /* grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    align-items: stretch;
+    margin: 0 20px;
+  }
+
+  .createGreetingCard img {
+    width: 100%;
+  }
+
+  .playBtn {
+    position: absolute;
+    bottom: 40%;
+    right: 40%;
+  }
+
+  .createImageWeb {
+    display: none;
+  }
+  .createImageMobile {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .playBtn {
+    right: 30%;
+    /* bottom: 150px; */
+  }
+}
