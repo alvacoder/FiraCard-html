@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: #fff;
-  width: 97%;
+  width: 90%;
   height: fit-content;
   margin: 10px auto;
 }
@@ -30,7 +30,7 @@ q {
 
 .birthdayCardContainer h3 {
   font-size: 35px;
-  color: #2c4b75;
+  color: #D04D2A;
   line-height: 40px;
   font-weight: 600;
   text-align: center;
