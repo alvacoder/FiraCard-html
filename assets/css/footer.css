@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
-  max-width: 1400px;
+  max-width: 1170px;
   margin: auto;
 }
 
@@ -21,6 +21,10 @@
   border-radius: 50%;
   padding: 7px 10px;
   margin: 0 5px;
+}
+
+.socialFooter .instagram {
+  padding: 8px;
 }
 
 .copyRight p {

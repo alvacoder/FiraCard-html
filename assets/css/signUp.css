@@ -79,7 +79,7 @@ form {
 
 .submitBtn input {
   background: #d04d2a;
-  padding: 10px;
+  padding: 3px;
   color: #fff;
   border: 10px solid transparent;
 }
@@ -109,7 +109,8 @@ form {
 }
 
 .socialContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
@@ -306,7 +307,7 @@ form {
   }
 
   .socialInner {
-    max-width: 300px;
+    max-width: 220px;
     margin: 5px auto;
   }
 }
