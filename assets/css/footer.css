@@ -19,11 +19,22 @@
 .socialFooter span {
   border: 1px solid #0a142f;
   border-radius: 50%;
-  padding: 5px;
+  padding: 7px 10px;
   margin: 0 5px;
 }
 
 .copyRight p {
   color: #0a142f;
   font-size: 14px;
+}
+
+@media screen and (max-width: 680px) {
+  .footerContainer {
+    display: block;
+    text-align: center;
+  }
+
+  .copyRight {
+    padding-top: 20px;
+  }
 }
