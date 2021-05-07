@@ -32,6 +32,10 @@
   font-size: 14px;
 }
 
+.dedicatedFooter {
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 680px) {
   .footerContainer {
     display: block;

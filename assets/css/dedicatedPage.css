@@ -1,6 +1,6 @@
 .createGreetingCard,
 .homeContainerInner {
-  max-width: 1100px;
+  max-width: 1170px;
   margin: auto;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .homeText {
-  padding: 0 50px 0 0px;
+  padding: 50px;
 }
 
 .homeText .dedicatedBtn a button {
@@ -40,7 +40,7 @@
   color: #d04d2a;
   font-size: 30px;
   font-weight: 500;
-  padding: 0 0 0 30px;
+  padding: 0 60px 0 30px;
 }
 
 .playBtn a button {
@@ -58,7 +58,7 @@
 
 .sampleContainer h3 {
   font-size: 30px;
-  color: #D04D2A;
+  color: #d04d2a;
   line-height: 30px;
   font-weight: 500;
 }
@@ -78,7 +78,7 @@
 
 .largeImageCard {
   background-color: #fff;
-  width: 350px;
+  max-width: 350px;
   align-items: center;
   float: right;
   margin: 70px;
@@ -149,8 +149,18 @@ q::after {
 
   .playBtn {
     position: absolute;
-    bottom: 40%;
-    right: 40%;
+    transform: translate(-50%, -50%);
+    top: 61%;
+    left: 50%;
+  }
+  .playBtn a button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .playBtn .fa-play-circle {
+    color: #fff;
   }
 
   .createImageWeb {
@@ -163,8 +173,15 @@ q::after {
 }
 
 @media screen and (max-width: 480px) {
+  .createGreetingCard h3 {
+    padding: 0;
+  }
+  .largeImageCard {
+    margin: 50px 20px;
+    padding: 5px;
+  }
+
   .playBtn {
-    right: 30%;
-    /* bottom: 150px; */
+    top: 70%;
   }
 }
