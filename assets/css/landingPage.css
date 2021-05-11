@@ -133,6 +133,12 @@ html {
   text-align: center;
 }
 
+.worksInnerImage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-around; */
+}
+
 .worksInnerText {
   width: fit-content;
 }
@@ -164,8 +170,8 @@ html {
 }
 
 .worksInner img {
-  width: 15%;
-  padding: 20px;
+  width: 50%;
+  padding: 20px 40px;
 }
 
 .greetingCard {
@@ -696,6 +702,10 @@ html {
   .worksInner {
     display: block;
     padding: 20px;
+  }
+
+  .worksInner img {
+    width: 15%;
   }
 
   .worksInnerText {
